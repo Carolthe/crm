@@ -1,13 +1,11 @@
 import { View, ScrollView, StyleSheet } from "react-native";
-import ClientsHeader from "../components/clientes/ClientHeader";
-import ClientSummaryCard from "../components/clientes/ClientSummaryCard";
-import ClientCard from "../components/clientes/ClientCard";
-import HeaderLogado from "../components/HeaderLogado";
+import ClientsHeader from "../../components/clientes/ClientHeader";
+import ClientSummaryCard from "../../components/clientes/ClientSummaryCard";
+import ClientCard from "../../components/clientes/ClientCard";
 
 export default function Clientes() {
   return (
     <View style={styles.container}>
-      <HeaderLogado title="Clientes" />
       <ClientsHeader />
 
       {/* RESUMO */}

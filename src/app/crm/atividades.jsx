@@ -6,10 +6,9 @@ import {
   ScrollView,
 } from "react-native";
 
-import HeaderLogado from "../components/HeaderLogado";
-import ResumoCard from "../components/atividades/ResumoCard";
-import AtividadeCard from "../components/atividades/AtividadeCard";
-import AddActivityButton from "../components/atividades/AddActivityButton";
+import ResumoCard from "../../components/atividades/ResumoCard";
+import AtividadeCard from "../../components/atividades/AtividadeCard";
+import AddActivityButton from "../../components/atividades/AddActivityButton";
 
 
 export default function Atividades() {
@@ -47,8 +46,6 @@ export default function Atividades() {
 
   return (
     <View style={styles.container}>
-
-      <HeaderLogado title="Atividades" />
 
       <ScrollView
         contentContainerStyle={styles.content}

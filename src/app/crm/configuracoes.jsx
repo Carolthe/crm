@@ -1,16 +1,13 @@
 import React from "react";
 import { ScrollView, View, Text, StyleSheet } from "react-native";
 
-import HeaderLogado from "../components/HeaderLogado";
-import UserCard from "../components/configuracoes/UserCard";
-import ConfigSection from "../components/configuracoes/ConfigSection";
-import ConfigItem from "../components/configuracoes/ConfigItem";    
+import UserCard from "../../components/configuracoes/UserCard";
+import ConfigSection from "../../components/configuracoes/ConfigSection";
+import ConfigItem from "../../components/configuracoes/ConfigItem";
 
 export default function Configuracoes() {
   return (
     <View style={styles.container}>
-      <HeaderLogado title="Configurações" />
-
       <ScrollView
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.content}

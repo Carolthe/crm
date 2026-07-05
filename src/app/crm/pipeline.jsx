@@ -1,9 +1,8 @@
 import React from "react";
 import { View, ScrollView, StyleSheet } from "react-native";
 
-import HeaderLogado from "../components/HeaderLogado";
-import PipelineHeader from "../components/pipeline/PipelineHeader";
-import PipelineColumn from "../components/pipeline/PipelineColumn";
+import PipelineHeader from "../../components/pipeline/PipelineHeader";
+import PipelineColumn from "../../components/pipeline/PipelineColumn";
 
 export default function Pipeline() {
 
@@ -62,8 +61,6 @@ export default function Pipeline() {
 
   return (
     <View style={styles.container}>
-
-      <HeaderLogado title="Pipeline" />
 
       <PipelineHeader />
 

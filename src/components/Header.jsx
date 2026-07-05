@@ -23,7 +23,7 @@ export default function App() {
           <Text style={styles.text}>Serviços</Text>
         </Pressable>
 
-        <Pressable onPress={() => router.push('/inicialCrm')} style={styles.button}>
+        <Pressable onPress={() => router.push('/crm/inicialCrm')} style={styles.button}>
           <Text style={styles.text}>Começar</Text>
         </Pressable>
       </View>

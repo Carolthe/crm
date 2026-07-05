@@ -1,14 +1,11 @@
 import { View, ScrollView, StyleSheet } from "react-native";
-import SalesHeader from "../components/vendas/SalesHeader";
-import SalesSummaryCard from "../components/vendas/SalesSummaryCard";
-import SaleCard from "../components/vendas/SaleCard";
-import HeaderLogado from "../components/HeaderLogado";
-
+import SalesHeader from "../../components/vendas/SalesHeader";
+import SalesSummaryCard from "../../components/vendas/SalesSummaryCard";
+import SaleCard from "../../components/vendas/SaleCard";
 
 export default function Vendas() {
   return (
     <View style={styles.container}>
-      <HeaderLogado title="Vendas" />
       <SalesHeader />
 
       <View style={styles.summaryRow}>

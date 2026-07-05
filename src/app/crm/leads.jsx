@@ -1,13 +1,11 @@
 import { View, ScrollView, StyleSheet } from "react-native";
-import LeadsHeader from "../components/leads/LeadsHeader";
-import LeadSummaryCard from "../components/leads/LeadSummaryCard";
-import LeadCard from "../components/leads/LeadCard";
-import HeaderLogado from "../components/HeaderLogado";
+import LeadsHeader from "../../components/leads/LeadsHeader";
+import LeadSummaryCard from "../../components/leads/LeadSummaryCard";
+import LeadCard from "../../components/leads/LeadCard";
 
 export default function Leads() {
   return (
     <View style={styles.container}>
-      <HeaderLogado title="Leads" />
       <LeadsHeader />
 
       <View style={styles.summaryRow}>

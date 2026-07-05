@@ -1,14 +1,12 @@
 import React from "react";
 import { View, ScrollView, StyleSheet, Text } from "react-native";
 
-import HeaderLogado from "../components/HeaderLogado";
-import ReportCard from "../components/relatorios/ReportCard";
-import SalesSummary from "../components/relatorios/SalesSummary";
+import ReportCard from "../../components/relatorios/ReportCard";
+import SalesSummary from "../../components/relatorios/SalesSummary";
 
 export default function Relatorios() {
   return (
     <View style={styles.container}>
-      <HeaderLogado title="Relatórios" />
 
       <ScrollView
         contentContainerStyle={styles.content}

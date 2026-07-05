@@ -8,9 +8,9 @@ import {
 } from 'react-native';
 import CardServico from '../components/CardServico';
 import { useRouter } from 'expo-router'
-import InicialCrm from './inicialCrm';
-import Clientes from './clientes';
-import Leads from './leads';
+import InicialCrm from './crm/inicialCrm';
+import Clientes from './crm/clientes';
+import Leads from './crm/leads';
 import { useWindowDimensions } from 'react-native';
 
 export default function TabLayout() {
@@ -80,7 +80,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F4F9FD',
     paddingHorizontal: 40,
-    paddingTop: 20,
   },
 
   title: {
